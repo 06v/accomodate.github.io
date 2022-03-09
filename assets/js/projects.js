@@ -22,13 +22,13 @@ let projects = [
         "link": "https://museno.xyz/"
     },
     {
-        "name": "Another Project",
-        "description": "Lorem Ipsum.",
-        "link": "https://enes.vip/"
+        "name": "Socials",
+        "description": "My second website which I use for linking my social media acocunts.",
+        "link": "https://dead.wtf/"
     },
     {
         "name": "Another Project",
-        "description": "Visa Verde.",
+        "description": "lorem ipsum.",
         "link": "https://enes.vip/"
     }
 ]
