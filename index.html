@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>enes@www</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Enes">
+        <meta name="twitter:description" content="Network Engineer, Developer and Crypto Enthusiast from Germany">
+
+        <link rel="stylesheet" href="assets/css/style.css?ver=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body class="light-mode">
+        <div id="container" style="position: relative;" class="container py-5 my-5">
+            <div class="top-right">
+                <ul class="link-list">
+                    <li class="link-item"><a id="change theme" class="no-hover"><i class="fa-solid fa-moon"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div id="info">
+                        <h1 id="typing-effect" class="fw-bold"></h1>
+                        <p class="lowercase" style="width: 40ch;"><strong>Hey!</strong> I'm a 17-year-old <strong>Network Engineer</strong> and <strong>Developer</strong> from <strong>Germany</strong>. I've been programming for 1 year and learnt <strong>Python, Java, HTML, Go</strong> and <strong>JavaScript</strong> so far.</p>
+                        <!-- <p class="lowercase">I like to program scripts and web apps using <strong>Python</strong> and<strong>Javascript</strong>.</p> -->
+                        <ul class="link-list">
+                            <li class="link-item"><a href="mailto:info@enes.vip" id="contact"><i class="fa-solid fa-envelope"></i></a></li>
+                            <li class="link-item"><a href="https://github.com/accomodate" id="github"><i class="fa-brands fa-github"></i></a></li>
+                            <li class="link-item"><a href="https://instagram.com/enesvierzwei" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="link-item"><a href="https://twitter.com/daddyenes" id="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="link-item"><a href="https://www.youtube.com/channel/UC9tIm5e67PBP4SGwRUSwqVw" id="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="link-item"><a href="https://discord.gg/sniper" id="discord"><i class="fa-brands fa-discord"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 row">
+                <div class="col-lg-3 col-sm-12" style="position: relative;" onclick="secret_rps();">
+                    <div class="center">
+                        <h5 id="secret-msgs"></h5>
+                    </div>
+
+                    <div id="rps" class="center text-center" style="display: none;">
+                        <div class="card card-no-hover">
+                            <div class="card-body">
+                                <h5 class="card-title lowercase" id="rps-title">Rock, Paper, Scissors</h5>
+                                <p class="lowercase" id="rps-desc"></p>
+                                <ul class="link-list mb-0 mt-4" style="justify-content: center;">
+                                    <li class="link-item"><a onclick="rps_play('rock')"><i class="fa-solid fa-hand-back-fist"></i></a></li>
+                                    <li class="link-item"><a onclick="rps_play('paper')"><i class="fa-solid fa-hand"></i></a></li>
+                                    <li class="link-item" style="margin: 0px;"><a onclick="rps_play('scissors')"><i class="fa-solid fa-hand-scissors"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 mb-4" style="display: none;">
+                    <h1 class="fw-bold text-start console-font lowercase mb-3" id="skills">Skills</h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul id="languages-list" class="skills-list mb-0"></ul>
+                        </div>
+                        <div class="col-12">
+                            <ul id="frameworks-list" class="skills-list"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-sm-12">
+                    <h1 class="fw-bold text-end console-font lowercase mb-3" id="projects">Projects</h1>
+                    <div class="row" id="projects-row"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/assets/js/age.js?ver=1"></script>
+        <script src="/assets/js/rps.js?ver=1"></script>
+        <script src="/assets/js/links.js?ver=1"></script>
+        <script src="/assets/js/typewriter.js?ver=1"></script>
+        <script src="/assets/js/projects.js?ver=1"></script>
+        <script src="/assets/js/index.js?ver=1"></script>
+        <script src="https://kit.fontawesome.com/bbd7036ee1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
