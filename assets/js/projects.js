@@ -19,12 +19,12 @@ let projects = [
     {
         "name": "Museno",
         "description": "Listen to Music anywhere, online or offline, for free, using my unfinished Application.",
-        "link": "https://museno.xyz/"
+        "link": "museno.xyz"
     },
     {
         "name": "Socials",
         "description": "My second website which I use for linking my social media acocunts.",
-        "link": "https://dead.wtf/"
+        "link": "dead.wtf"
     },
     {
         "name": "Another Project",
