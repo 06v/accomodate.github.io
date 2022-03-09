@@ -18,7 +18,7 @@ let projects = [
     },
     {
         "name": "Museno",
-        "description": "Listen to Music anywhere, online or offline, for free using my unfinished Application.",
+        "description": "Listen to Music anywhere, online or offline, for free, using my unfinished Application.",
         "link": "https://museno.xyz/"
     },
     {
