@@ -4,7 +4,7 @@ let projects = [
     {
         "name": "Kami Sniper", 
         "description": "My Service to snipe your desired Minecraft Username onto a fresh Account.", 
-        "link": "https://kamisniper.com/"
+        "link": "https://discord.com/invite/sniper"
     },
     {
         "name": "Password Generator",
@@ -19,12 +19,12 @@ let projects = [
     {
         "name": "Museno",
         "description": "Listen to Music anywhere, online or offline, for free, using my unfinished Application.",
-        "link": "museno.xyz"
+        "link": "https://museno.xyz"
     },
     {
         "name": "Socials",
         "description": "My second website which I use for linking my social media acocunts.",
-        "link": "dead.wtf"
+        "link": "https://dead.wtf"
     },
     {
         "name": "Another Project",
