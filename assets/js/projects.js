@@ -2,13 +2,13 @@ let projects_row = document.getElementById('projects-row');
 
 let projects = [
     {
-        "name": "Kami Sniper", 
-        "description": "My Service to snipe your desired Minecraft Username onto a fresh Account.", 
-        "link": "https://discord.com/invite/sniper"
+        "name": "Username Sniper", 
+        "description": "Automated claiming of Usernames in Minecraft made easy.", 
+        "link": "https://sniper.lol"
     },
     {
         "name": "Password Generator",
-        "description": "An easy to use Password Generator with decent features.",
+        "description": "An easy to use Password Generator with unique features.",
         "link": "https://enes.vip/password-generator"
     },
     {
