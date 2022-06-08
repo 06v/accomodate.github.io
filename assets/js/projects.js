@@ -2,11 +2,6 @@ let projects_row = document.getElementById('projects-row');
 
 let projects = [
     {
-        "name": "Username Sniper", 
-        "description": "Automated claiming of Usernames in Minecraft made easy.", 
-        "link": "https://sniper.lol"
-    },
-    {
         "name": "Password Generator",
         "description": "An easy to use Password Generator with unique features.",
         "link": "https://enes.vip/password-generator"
@@ -18,18 +13,13 @@ let projects = [
     },
     {
         "name": "Museno",
-        "description": "Listen to Music anywhere, online or offline, for free, using my unfinished Application.",
+        "description": "Listen to Music anywhere, online or offline, for free, using my Application soon.",
         "link": "https://museno.xyz"
     },
     {
         "name": "Socials",
         "description": "My second website which I use for linking my social media acocunts.",
         "link": "https://dead.wtf"
-    },
-    {
-        "name": "Another Project",
-        "description": "lorem ipsum.",
-        "link": "https://enes.vip/"
     }
 ]
 
