@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 3rem 1rem;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 40% calc(100% + 75px);
+    background-size: contain;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 55rem;
+    }
+}
+
+.heading-left {
+    float: left;
+}
+
+.heading-left>h1 {
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    margin: 0;
+}
+
+.heading-left>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    float: right;
+    border-radius: 15%;
+}
+
+hr {
+    border: 0;
+    clear: both;
+}
+
+.new:after {
+    content: 'NEW';
+    margin-left: 5px;
+    padding: 0 3px 0 3px;
+    border-radius: 3px;
+    background-color: orange;
+    font-weight: bolder;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.icon {
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: darkblue;
+}
